@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >"
+
+    <fragment 
+        android:id="@+id/fragment1tab"
+        android:name="com.example.hellofragment002.LeftFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" />
+    
+    <fragment 
+        android:id="@+id/fragment2tab"
+        android:name="com.example.hellofragment002.RightFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>
